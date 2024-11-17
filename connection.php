@@ -8,10 +8,13 @@
 <body>
     <h3>Se connecter</h3>
     <form action="submit_connection.php" method="post">
-        <input  style="width:200px"type="text" name="nom" placeholder="Entrer votre nom" required><br><br>
+        <input style="width:200px" type="text" name="nom" placeholder="Entrer votre nom" required><br><br>
         <input style="width:200px" type="password" name="password" id="" placeholder="Entrer votre mot de passe" required><br><br>
         <button type="submit">Connexion</button>
-    </form><br>
+        <a href="forget_password.php">Mot de passe oublié ?</a>
+    </form>
+    
+    <br>
 
     <a href="index.php">S'inscrire</a>
 
